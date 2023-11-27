@@ -2,6 +2,110 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Top Menu Hover Animation */
+.topmenu:hover {
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Introduction Animation */
+.introduction {
+  text-align: justify;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Skills Card Animation */
+.skill {
+  border: 1px solid gray;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px gray;
+  transition: transform 0.3s ease-in-out; /* Smooth scale transition */
+}
+
+.skill:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Scroll to Top Button Animation */
+.iconbutton {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #046CA7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.iconbutton:hover {
+  background-color: #024d7e; /* Darker color on hover */
+}
+
+/* Project Card Animation */
+.project-card {
+  margin: 0 15px 15px 30px;
+  padding-bottom: 5px;
+  transition: transform 0.3s ease-in-out; /* Smooth scale transition */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Recommendation Card Animation */
+.recommendation {
+  font-style: italic;
+  text-align: left;
+  width: 21.875rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  height: 150px;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth box-shadow transition */
+}
+
+.recommendation:hover {
+  box-shadow: 0 6px 15px var(--primary-shadow); /* Shadow increase on hover */
+}
+
+
 /* Navigation Bar */
 
 #home {
