@@ -2,6 +2,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.profile_name, .contact_info {
+  color: white
+}
+
 /* Top Menu Hover Animation */
 .topmenu:hover {
   color: white;
