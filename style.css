@@ -2,7 +2,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.profile-name, .contact_info {
+.profile_name, .contact_info {
   color: white
 }
 
