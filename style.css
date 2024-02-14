@@ -445,6 +445,11 @@ button:hover {
     width: 1in;
   }
 
+  .skill {
+    display: flex;
+    justify-content: center;
+  }
+  
   .iconbutton {
     right: 2%;
     bottom: 2%;
@@ -470,6 +475,11 @@ button:hover {
   .project-card h3, .project-card li {
     font-size: 18px;
     margin-left: 20px;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
   }
 
   /* Add more styles as needed for smaller screens */
