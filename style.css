@@ -149,7 +149,7 @@ body {
   /* Add the styles here */
 }
 
-.profile_name .contact_info {
+.profile_name .contact_info .contact {
   font-size: 15px;
   font-style: italic;
   display: flex;
