@@ -434,6 +434,11 @@ button:hover {
 @media only screen and (max-width: 768px) {
   /* Styles for devices with a maximum width of 768 pixels */
 
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
   .introduction {
     font-size: 20px;
     margin-top: 20px;
@@ -461,6 +466,11 @@ button:hover {
 @media only screen and (max-width: 480px) {
   /* Styles for devices with a maximum width of 480 pixels */
 
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
   h2 {
     font-size: 40px;
     margin: 20px;
